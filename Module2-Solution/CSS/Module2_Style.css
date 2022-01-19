@@ -1,9 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Papyrus", fantasy;
+}
+
+header {
+  text-align: center;
+  margin: 50px;
+  font-size: 20px;
+  font-size: 1.75em;
+}
+
+section {
+  border: 1px solid black;
+  float: left;
+  background-color: gray;
+  margin-top: 2.5%;
+}
+
+section div {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.Title {
+  border: 1px solid black;
+  width: 30%;
+  text-align: center;
+  position: relative;
+  left: 70%;
+  font-size: 20px;
+  font-size: 1.25em;
+}
+
+#T1 {
+  background-color: pink;
+}
+
+#T2 {
+  background-color: red;
+}
+
+#T3 {
+  background-color: beige;
+}
 /********Mobile Style********/
+#Section1 {
+  width: 95%;
+  margin-left: 2.5%;
+}
+#Section2 {
+  width: 95%;
+  margin-left: 2.5%;
+}
+#Section3 {
+  width: 95%;
+  margin-left: 2.5%;
+}
 
 /********Tablet Style********/
 @media (min-width: 768px) and (max-width: 991px) {
+  #Section1 {
+    width: 46.25%;
+    margin-left: 2.5%;
+  }
+  #Section2 {
+    width: 46.25%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  #Section3 {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
 }
 
 /********Desktop Style********/
 @media (min-width: 992px) {
+  #Section1 {
+    width: 30%;
+    margin-left: 2.5%;
+  }
+  #Section2 {
+    width: 30%;
+    margin-left: 2.5%;
+  }
+  #Section3 {
+    width: 30%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
 }
